@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Greg Czaplicki - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+    // Picture element HTML5 shiv
+    document.createElement( "picture" );
+  </script>
+    <script src="js/picturefill.js" async></script>
+</head>
+
+<body>
+    <!-- Container beginning -->
+    <div class="container">
+        <!-- Header (logo and name) -->
+        <div class="row header">
+            <div class="col-md-6">
+                <img src="imgs/logo.svg" class="logo" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1 class="name text-right">Greg Czaplicki</h1>
+                <h3 class="text-right text-uppercase sublogo">front-end-ninja</h3>
+            </div>
+        </div>
+        <!-- Horizontal Rule -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="hr-fade">
+            </div>
+        </div>
+        <!-- Large main image w/ scrscet options -->
+        <div class="row">
+            <div class="col-md-12">
+                <picture>
+                    <source srcset="imgs/programming-compressed.jpeg" media="(min-width: 990px)">
+                    <source srcset="imgs/programming-medium.jpeg" media="(min-width: 768px)">
+                    <img src="imgs/programming-small.jpeg" class="img-rounded img-responsive img-jumbo center-block" alt="Laptop with lines and lines of code showing.">
+                </picture>
+            </div>
+        </div>
+        <!-- Featured Work Section-->
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="featured-header">Featured Work</h3>
+            </div>
+        </div>
+        <!-- Portfolio Images -->
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="imgs/portfolio-guitar-small.jpeg" class="img-responsive img-thumbnail portfolio-images" alt="Musician on stage infront of crowd playing guitar.">
+                <h3 class="text-center text-uppercase">guitar</h3>
+                <a href="www.somewebsite.com/guitar">www.somewebsite.com/guitar</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="imgs/portfolio-dinner-small.jpeg" class="img-responsive img-thumbnail portfolio-images" alt="Delicious sandwhich and french fries on a wooden serving dish.">
+                <h3 class="text-center text-uppercase">food</h3>
+                <a href="www.somewebsite.com/food">www.somewebsite.com/food</a>
+            </div>
+            <div class="col-sm-4">
+                <img src="imgs/portfolio-golf-small.jpeg" class="img-responsive img-thumbnail portfolio-images" alt="Golfball hanging on the edge of the cup.">
+                <h3 class="text-center text-uppercase">golf</h3>
+                <a href="www.somewebsite.com/golf">www.somewebsite.com/golf</a>
+            </div>
+        </div>
+        <!--End of container-->
+    </div>
+    <br>
+    <br>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <p class="navbar-text pull-left">© 2016 - Full Stack Nanodegree</p>
+            <a href="http://www.udacity.com" class="navbar-btn btn-primary btn pull-right">
+                <span class="glyphicon glyphicon-education"></span> Udacity</a>
+        </div>
+    </div>
+</body>
+
+</html>
